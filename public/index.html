@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaMask Sign Message</title>
+</head>
+<body>
+    <h1>Connect MetaMask & Sign Message</h1>
+    <button id="connectButton">Connect MetaMask</button>
+    <div id="walletAddress"></div>
+    <div>
+        <label for="inputAddress">Address: </label>
+        <input type="text" id="inputAddress" placeholder="Enter address">
+    </div>
+    <div>
+        <label for="inputNumber">Number: </label>
+        <input type="number" id="inputNumber" placeholder="Enter number">
+    </div>
+    <button id="signButton">Sign Message</button>
+    <div id="signedMessage"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
